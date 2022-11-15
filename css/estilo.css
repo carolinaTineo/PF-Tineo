@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+html {
+  font-size: 62, 5%;
+}
+html body {
+  background-color: linear-gradient(to right, #E4E5E6, #00416A);
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+}
+.encabezado .tituloPrincipal {
+  text-decoration: none;
+  color: rgb(25, 7, 105);
+  font-size: 3rem;
+}
+.encabezado .tituloPrincipal i {
+  font-size: 4rem;
+  text-align: right;
+  color: rgb(25, 7, 105);
+}
+.encabezado .tituloPrincipal h1 {
+  display: inline-block;
+  color: rgb(25, 7, 105);
+  font-size: 3rem;
+  font-weight: 750;
+}
+.encabezado .tituloPrincipal ul {
+  display: flex;
+  list-style-type: none;
+}
+.encabezado .tituloPrincipal ul li {
+  margin-right: 3rem;
+}
+.encabezado .tituloPrincipal ul li a {
+  text-decoration: none;
+  color: rgb(25, 7, 105);
+  font-size: 3rem;
+  transition: all 0.3s ease;
+}
+.encabezado .tituloPrincipal ul li a:hover {
+  color: black;
+}
+
+.menu {
+  list-style-type: none;
+  color: rgb(19, 5, 5);
+  list-style-type: none;
+  margin-right: 3rem;
+}
+
+body {
+  background: #00416A;
+  background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);
+  background: linear-gradient(to right, #E4E5E6, #00416A);
+}
+
+footer {
+  font-size: 1, 5rem;
+  text-align: center;
+  background-color: rgb(196, 238, 255);
+  text-decoration: overline;
+}
+
+/*# sourceMappingURL=estilo.css.map */
