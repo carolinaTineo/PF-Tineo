@@ -63,6 +63,23 @@ footer {
   text-align: center;
   background-color: rgb(196, 238, 255);
   text-decoration: overline;
+  padding-top: 6rem;
+}
+
+.formu {
+  text-align: center;
+  font-weight: 5rem;
+  font-size: 1.5rem;
+}
+.formu h2 {
+  font-size: 3rem;
+  background-color: rgb(9, 170, 116);
+}
+
+.fpe h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: cursive;
 }
 
 /*# sourceMappingURL=estilo.css.map */
