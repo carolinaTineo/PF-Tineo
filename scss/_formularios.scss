@@ -1,7 +1,8 @@
 .formu{
-    text-align: center;
+    box-sizing: border-box;
     font-weight: 5rem;
     font-size: 1.5rem;
+
 
     h2{
         font-size: 3rem;
@@ -16,4 +17,21 @@
         font-family: cursive;
     
     }
+}
+
+.form{
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 3rem ;
+    border-radius: 10px;
+    box-shadow: 2px 5px -5px;
+    text-align: center;
+    
+    textarea{
+        margin: 1rem;
+        text-align: center;
+        padding: auto;
+}
+
 }
